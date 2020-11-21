@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="elem card prueba" *ngFor="let producto of productos">
+    <h2 (click)="verDetalle(producto)" class="verDetalle">{{ producto.nombre }}</h2>
+    <div>
+      <p>Codigo: {{ producto.id }}</p>
+    </div>
+    <div>
+      <p>Precio: {{ producto.precio }}</p>
+    </div>
+    <!-- <div>
+      <p>{{ producto.categoriaNombre }}</p>
+    </div> -->
+    <!-- <div>
+      <p>fecha: {{ producto.createAt | date }}</p>
+    </div> -->
+    <!-- <div>
+      <p>Categoria: {{ producto.categoria.nombre }}</p>
+    </div> -->
+  </div>
+</div>

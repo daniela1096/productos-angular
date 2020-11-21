@@ -1,0 +1,47 @@
+
+.sinloguear{
+    text-align: center;
+    color: rgba(68, 7, 7, 0.527);
+    font-size: 18px;
+}
+
+.ubicacionNombre{
+    position: absolute;
+    margin: -40px;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.ubicacionBoton{
+    position: absolute;
+    margin-top: -40px;
+    margin-right: 30px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    line-height: 24px;
+    border-radius: 4px;
+}
+
+.boton {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 80px;
+    width: 200px;
+    margin: 0 8px 16px;
+    padding: 15px;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+
+  .boton:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .ubicacionBoton:hover {
+    line-height: 24px;
+    border-radius: 35%;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+  }

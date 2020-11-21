@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">PRODSTORE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true}">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/crear-productos" routerLinkActive="active">Crear productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/listado-productos" routerLinkActive="active">Listar productos</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" routerLink="/perfil" routerLinkActive="active">Perfil</a>
+        </li> -->
+      </ul>
+      <span class="navbar-text">
+          <!-- Usuario: {{ProductoInyectado.producto.nombre}} -->
+      </span>
+    </div>
+  </nav>

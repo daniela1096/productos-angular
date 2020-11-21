@@ -1,0 +1,13 @@
+<div class="container articulo">
+  <div>
+    <h2>Detalle completo de tu producto!! 😊</h2>
+    <br>
+    <!-- <h4>{{ producto.nombre }}</h4> -->
+    <p><b>Precio:</b> {{ producto.precio }}</p>
+    <p><b>Código:</b> {{ producto.id }}</p>
+    <p><b>fecha:</b> {{ producto.createAt | date }}</p>
+    <!-- <p *ngIf="producto.categoria.nombre"><b>Categoria:</b> {{ producto.categoria.nombre }}</p> -->
+    <br>
+    <button class="btn btn-danger" (click)="eliminar(producto.id)">Eliminar</button>
+  </div>
+</div>
